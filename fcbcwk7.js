@@ -8,13 +8,13 @@ console.log('1a.Programmatically subtract the first element from the last elemen
 let resultA = ages[ages.length - 1] - ages[0];
 console.log(`Result for 1a: ${resultA}`);
 
-console.log('b.Add a new age (added 42) to the array and repeat the step above.');
+console.log('1b.Add a new age (added 42) to the array and repeat the step above.');
 let newAge = 42;
 ages.push(newAge);
 let resultB = ages[ages.length - 1] - ages[0];
 console.log(`Result for 1b: ${resultB}`);
 
-console.log('c.Use a loop to calculate the average age.');
+console.log('1c.Use a loop to calculate the average age.');
 let totalAge = 0;
 for (let i = 0; i < ages.length; i++) {
     totalAge += ages[i];
